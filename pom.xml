@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.javaex</groupId>
-	<artifactId>api-phoneList</artifactId>
+	<artifactId>api-phonelist</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>api-phoneList</name>
-	<description>api-phoneList project for Spring Boot</description>
+	<description>api-phonelist project for Spring Boot</description>
 	<url />
 	<licenses>
 		<license />
