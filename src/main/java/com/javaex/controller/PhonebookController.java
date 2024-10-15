@@ -19,7 +19,7 @@ public class PhonebookController {
 	private PhonebookService phonebookService;
 
 	/* 리스트 가져오기 */
-	@GetMapping("/api/persons")
+	@GetMapping("/api/persons") 
 	public JsonResult getList() {
 		System.out.println("PhonebookController.getList()");
 
