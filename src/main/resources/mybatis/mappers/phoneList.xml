@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="phoneList">
+
+	<select id="selectList" resultType="PersonVo"> <!-- type=com.javaex.vo.PersonVo 를 alias 줌 -->
+		<![CDATA[ 
+			select 	person_id as personId,
+					name,   
+			        hp,     
+			        company
+			from person
+		]]>
+	</select>
+	
+	<!-- 삭제 -->
+	<delete id="delete" parameterType="int">
+		<![CDATA[     
+			delete from person
+			where person_id = #{personId}
+		]]>
+	</delete>
+
+
+
+
+</mapper>
